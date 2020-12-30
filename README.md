@@ -8,12 +8,14 @@ A Virtual Machine written in Rust to emulate the LC3 computer (Little Computer 3
 
 ## Preview
 ### Rogue game
+![rogue_demo](./assets/rust_vm_demo_rogue.gif)
 
 ### 2048 game
-
+![2048_demo](./assets/rust_vm_demo_2048.gif)
 
 ## More About the VM
-1. Here is a simple diagram I made representing the workflow of the VM:
+1. Here is a simple diagram I made representing the workflow of the VM:  
+![lc3_arch](./assets/lc3_vm.jpg)
 
 2. The memory and register are the main hardware that are emulated. Rest of our code is mainly on reading the instructions from memory, determining what type of instruction it is (Op-code), and performing the corresponding action. To understand the different op-codes/type of instructions that our VM should be able to do, refer this [pdf](https://courses.engr.illinois.edu/ece411/fa2019/mp/LC3b_ISA.pdf).
 
