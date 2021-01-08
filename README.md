@@ -1,5 +1,5 @@
 # Rust VM
-A Virtual Machine written in Rust to emulate the LC3 computer (Little Computer 3) and a re-implementation of the C code version of the same.
+A Virtual Machine written in Rust to emulate the LC3 computer (Little Computer 3) and a re-implementation of the C code version of the [same](https://github.com/justinmeiners/lc3-vm) (huge credits to this author for a great article).
 
 ## Usage
 1. Running it is simple, download the `rust_vm` binary release provided here.
